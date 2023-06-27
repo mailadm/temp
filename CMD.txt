@@ -1,0 +1,3 @@
+﻿GRANT SELECT, INSERT, UPDATE, DELETE ON phpmyadmin.* TO 'pma'@'localhost' IDENTIFIED BY 'your-strong-passwd';
+GRANT ALL PRIVILEGES ON *.* TO 'john'@'localhost' IDENTIFIED BY 'your-strong-passwd' WITH GRANT OPTION;
+exit;
